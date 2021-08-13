@@ -56,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.InvoiceGeneratorTest.givenMultipleRides_ShouldReturnInvoiceSummary">
+  <component name="RunManager" selected="Gradle.InvoiceGeneratorTest.givenUserIdAndRide_ShouldReturnInvoiceSummary">
     <configuration name="InvoiceGeneratorTest.givenDistanceAndTime_ShouldReturnFare" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -137,8 +137,29 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="InvoiceGeneratorTest.givenUserIdAndRide_ShouldReturnInvoiceSummary" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.InvoiceGeneratorTest.givenUserIdAndRide_ShouldReturnInvoiceSummary&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.InvoiceGeneratorTest.givenUserIdAndRide_ShouldReturnInvoiceSummary" />
         <item itemvalue="Gradle.InvoiceGeneratorTest.givenMultipleRides_ShouldReturnInvoiceSummary" />
         <item itemvalue="Gradle.InvoiceGeneratorTest.givenMultipleRides_ShouldReturnTotalfare" />
         <item itemvalue="Gradle.InvoiceGeneratorTest.givenDistanceAndTime_ShouldReturnMinimumFare" />
