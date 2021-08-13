@@ -8,4 +8,9 @@ public class Ride {
         this.distance = distance;
         this.time = time;
     }
+
+    public Ride(double distance, int time, InvoiceGenerator.RideMode rideMode) {
+        this.distance = distance;
+        this.time = time;
+    }
 }

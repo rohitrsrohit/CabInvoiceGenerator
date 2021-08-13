@@ -56,27 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.InvoiceGeneratorTest.givenUserIdAndRide_ShouldReturnInvoiceSummary">
-    <configuration name="InvoiceGeneratorTest.givenDistanceAndTime_ShouldReturnFare" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.InvoiceGeneratorTest.givenDistanceAndTime_ShouldReturnFare&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.InvoiceGeneratorTest.givenUserIdAndRides_ShouldReturn_MultipleInvoiceSummary">
     <configuration name="InvoiceGeneratorTest.givenDistanceAndTime_ShouldReturnMinimumFare" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -157,13 +137,33 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="InvoiceGeneratorTest.givenUserIdAndRides_ShouldReturn_MultipleInvoiceSummary" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.InvoiceGeneratorTest.givenUserIdAndRides_ShouldReturn_MultipleInvoiceSummary&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.InvoiceGeneratorTest.givenUserIdAndRides_ShouldReturn_MultipleInvoiceSummary" />
         <item itemvalue="Gradle.InvoiceGeneratorTest.givenUserIdAndRide_ShouldReturnInvoiceSummary" />
         <item itemvalue="Gradle.InvoiceGeneratorTest.givenMultipleRides_ShouldReturnInvoiceSummary" />
         <item itemvalue="Gradle.InvoiceGeneratorTest.givenMultipleRides_ShouldReturnTotalfare" />
         <item itemvalue="Gradle.InvoiceGeneratorTest.givenDistanceAndTime_ShouldReturnMinimumFare" />
-        <item itemvalue="Gradle.InvoiceGeneratorTest.givenDistanceAndTime_ShouldReturnFare" />
       </list>
     </recent_temporary>
   </component>
